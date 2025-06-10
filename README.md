@@ -23,3 +23,20 @@ https://codewithkarani.com/2024/04/06/installing-a-custom-app-on-your-running-er
 - git clone <repository_url>
 - bench --site <site_name> install-app <app_name>
 - bench --site <site_name> migrate
+
+# Installing healthcare app
+
+https://github.com/earthians/marley/tree/version-15
+
+- bench get-app healthcare --branch version-15
+- bench --site frontend install-app healthcare
+- bench --site frontend migrate
+
+
+# Installing HRMS app
+- bench get-app hrms  --branch version-15
+- bench --site frontend install-app hrms
+- bench --site frontend migrate
+
+# Other bench commands
+- bench --site frontend list-apps
