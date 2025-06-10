@@ -15,5 +15,5 @@ Steps  to log into the Frappe Backend Docker container
 docker ps -a
 - look for the ID of  (pwd-backend-1)
 - Replace <NAME> with the ID of  (pwd-backend-1)
-sudo docker exec -it <NAME> /bin/bash
+- sudo docker exec -it <NAME> /bin/bash
 
