@@ -9,11 +9,11 @@ On github.com
 3. Follow codewithkarani steps.
 
 
-docker compose -p pwd -f docker-compose.yml up
+- docker compose -p pwd -f docker-compose.yml up
 
-Steps  to log into the Frappe Backend Docker container
-docker ps -a
+# Steps  to log into the Frappe Backend Docker container 
+- docker ps -a
 - look for the ID of  (pwd-backend-1)
-- Replace <NAME> with the ID of  (pwd-backend-1)
-- sudo docker exec -it <NAME> /bin/bash
+- Replace 'ID' with the ID of  (pwd-backend-1)
+- sudo docker exec -it 'ID' /bin/bash
 
