@@ -17,3 +17,9 @@ On github.com
 - Replace 'ID' with the ID of  (pwd-backend-1)
 - sudo docker exec -it 'ID' /bin/bash
 
+# Installing A Custom App On Your Running ERPNext Instance Installed via Docker
+https://codewithkarani.com/2024/04/06/installing-a-custom-app-on-your-running-erpnext-instance-installed-via-docker/ 
+- sudo docker exec -it <NAME> /bin/bash
+- git clone <repository_url>
+- bench --site <site_name> install-app <app_name>
+- bench --site <site_name> migrate
